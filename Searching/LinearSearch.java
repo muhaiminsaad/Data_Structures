@@ -9,8 +9,8 @@ public class LinearSearch{
         for(int i=0;i<array.length;i++){
             if(array[i]==key){
                 System.out.println("Found at position "+(i+1));
-                isFound=true;
-                break;
+                isFound=true; //shows multiple occurrences.
+                //use break; here to show only one occurrence.
             }
         }
         if(!isFound){
